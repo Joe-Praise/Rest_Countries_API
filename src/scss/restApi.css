@@ -97,6 +97,7 @@ h1 {
   border-radius: 5px;
   outline: none;
   background-color: transparent;
+  color: black;
 }
 
 .moon {
@@ -347,6 +348,7 @@ input::placeholder {
   background-color: transparent;
   font-weight: 600;
   margin: 0 5px;
+  color: black;
 }
 
 .single--country--details-container {
@@ -423,6 +425,7 @@ input::placeholder {
   margin: 10px 5px 10px 0;
   box-shadow: 2px 3px 8px rgb(213, 213, 213);
   background-color: transparent;
+  color: black;
   outline: none;
   font-size: 13px;
   padding: 4px 20px;
