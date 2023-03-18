@@ -31,7 +31,7 @@ const SingleCountryPage = () => {
   return (
     <React.Fragment>
       {isFetch === false ? <div className="loader">🚀</div> : (
-      <div>
+      <main>
         <div className="links--container">
           <Link to="/" className="links returnBtn">
             <HiOutlineArrowNarrowLeft />
@@ -102,7 +102,7 @@ const SingleCountryPage = () => {
             </div>
           );
         })}
-      </div>
+      </main>
       )}
     </React.Fragment>
   );

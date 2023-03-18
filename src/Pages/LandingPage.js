@@ -35,7 +35,7 @@ const LandingPage = () => {
     getCountries();
   }, []);
   return (
-    <div className="landing-page">
+    <main className="landing-page">
       <div className="search--region--container">
         <SearchInput getCountry={searchCountries} />
         <Filter onFilter={filterHandler} />
@@ -81,7 +81,7 @@ const LandingPage = () => {
           )}
         </React.Fragment>
       )}
-    </div>
+    </main>
   );
 };
 
