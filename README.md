@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX/solutions)
-- Solution website: (https://tipcalchallenge.netlify.app/)
+- Solution URL: (https://www.frontendmentor.io/solutions/flex-and-grid-jRyMKgkiGC)
+- Solution website: (https://joerestapi.netlify.app/)
 
 ### Built with
 
