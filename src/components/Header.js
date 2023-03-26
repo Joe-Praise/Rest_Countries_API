@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { HiOutlineMoon } from "react-icons/hi";
 
 const Header = () => {
+  const [isDarkMood, setIsDarkMood]=useState(true);
   const darkMood =()=>{
-    document.body.classList.toggle("dark")
+    setIsDarkMood(!isDarkMood);
+    localStorage.setItem("isDarkMood", "1");
   }
+  
+  useEffect(()=>{
+    if(isDarkMood){
+      const getColorStatus = localStorage.getItem("isDarkMood");
+      if(getColorStatus === "1"){
+        document.body.classList.add("dark")
+      }
+    }else{
+      document.body.classList.remove("dark");
+      localStorage.removeItem("isDarkMood")
+    }
+  },[isDarkMood]);
+  
   return (
     <header className="header_container">
       <div className="header">
